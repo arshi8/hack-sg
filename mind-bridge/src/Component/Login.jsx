@@ -34,17 +34,23 @@ export default function Login() {
             xs={false}
             sm={4}
             md={7}
-            sx={{
-              backgroundImage: "url(https://source.unsplash.com/random)",
-              backgroundRepeat: "no-repeat",
-              backgroundColor: (t) =>
-                t.palette.mode === "light"
-                  ? t.palette.grey[50]
-                  : t.palette.grey[900],
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          />
+            // sx={{
+            //   backgroundImage: "url(https://fastly.picsum.photos/200/300)",
+              // backgroundColor: (t) =>
+              //   t.palette.mode === "light"
+              //     ? t.palette.grey[50]
+              //     : t.palette.grey[900],
+              // backgroundSize: "cover",
+              // backgroundPosition: "center",
+            // }}
+          > <img 
+          src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" 
+          alt="react logo" 
+          style={{ 
+            width: '600px',
+            alignItems: 'center',
+            justifyContent:'center',
+            }}/></Grid>
           <Grid
             item
             xs={12}
